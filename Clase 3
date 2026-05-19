@@ -11,5 +11,5 @@ residuo2=residuo1%10;
 suma=cociente1+cociente2+residuo2;
 cout <<"La suma es: "<<suma<<endl;
 
-retunr 0;
+return 0;
 }
