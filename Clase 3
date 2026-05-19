@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main (){
-int numero,cociente1, cociente2, residuo1, residuo2,suma;
-cout <<"ingrese un numero de 3 digitos: ";
-cin>>numero;
-cociente1=numero/100;
-residuo1=numero%100;
-cociente2=residuo1/10;
-residuo2=residuo1%10;
-suma=cociente1+cociente2+residuo2;
-cout <<"La suma es: "<<suma<<endl;
+    int numero,cociente1, cociente2, residuo1, residuo2,suma;
+    cout <<"ingrese un numero de 3 digitos: ";
+    cin>>numero;
+    cociente1=numero/100;
+    residuo1=numero%100;
+    cociente2=residuo1/10;
+    residuo2=residuo1%10;
+    suma=cociente1+cociente2+residuo2;
+    cout <<"La suma es: "<<suma<<endl;
 
 return 0;
 }
