@@ -1,15 +1,11 @@
-#include <iostream>
+#include<iostream>
+#include<cmath>
 using namespace std;
-int main (){
-int numero,cociente1, cociente2, residuo1, residuo2,suma;
-cout <<"ingrese un numero de 3 digitos: ";
-cin>>numero;
-cociente1=numero/100;
-residuo1=numero%100;
-cociente2=residuo1/10;
-residuo2=residuo1%10;
-suma=cociente1+cociente2+residuo2;
-cout <<"La suma es: "<<suma<<endl;
-
+int main()
+{
+    float A,B,C,d1,d2;
+    d1=abs(A-C);
+    d2=abs(B-C);
+    
 return 0;
 }
