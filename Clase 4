@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
-int main (){
-int numero,cociente1, cociente2, residuo1, residuo2,suma;
-cout <<"ingrese un numero de 3 digitos: ";
-cin>>numero;
-cociente1=numero/100;
-residuo1=numero%100;
-cociente2=residuo1/10;
-residuo2=residuo1%10;
-suma=cociente1+cociente2+residuo2;
-cout <<"La suma es: "<<suma<<endl;
-
+int main(){
+    int numero,cociente1,cociente2,cociente3,residuo1,residuo2,residuo3,n,suma;
+    cout<<"Ingrese numero de 4 digitos: ";
+    cin>>numero;
+    cout<<"Ingrese numero n: ";
+    cin>>n;
+    cociente1=numero/1000;
+    residuo1=numero%1000;
+    cociente2=residuo1/100;
+    residuo2=residuo1%100;
+    cociente3=residuo2/10;
+    residuo3=residuo2%10;
+    suma=(cociente1*10000)+(cociente2*1000)+(cociente3*100)+(n*10)+(residuo3);
+    cout<<suma<<endl;
 return 0;
 }
