@@ -1,0 +1,11 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int main(){
+    int numero;
+    string mensaje;
+    cin >> numero;
+    mensaje = (numero % 2 == 0) ? "par" : "impar";
+    cout << "el numero es " << mensaje;
+    return 0;
+}
