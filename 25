@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main (){
+   int I,h;
+   I=9;
+   H=3;
+   cout<< "Volumen: "<<endl;
+   cout<< (4*(L*L*L)-(h*h*h))/3;
+return 0;
+}
