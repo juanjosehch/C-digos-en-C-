@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main (){
+   int a;
+   a=4;
+   cout << "Area: "<<endl;
+   cout << (a*a)/4;
+   cout<< "π";
+return 0;
+}
