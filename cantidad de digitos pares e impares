@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int numero,suma1=0,suma2=0;
+	cin>>numero;
+	while(numero>0) {
+		if(numero%2==0)
+		suma1++;
+		else
+		suma2++;
+		numero=numero/10;}
+	cout<<"digitos pares: "<<suma1<<'\n';
+	cout<<"digitos impares: "<<suma2;
+return 0;
+}
