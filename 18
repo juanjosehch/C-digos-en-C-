@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+   float r,h;
+   r=5
+   h=12;
+   cout<< "Volumen: "<< endl;
+   cout<< (((2*r*r*r)/3)+r*r*h);
+   cout<< "π"<<endl;
+   cout<< "Superficie: "<< endl;
+   cout<< (2*r*(h+r))+r*r;
+   cout<<"π";
+return 0;
+}
