@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string alimento = "Pizza";
+    string* ptr = &alimento;
+
+    // Generar el valor de alimento (Pizza)
+    cout << alimento << "\n";
+
+    // Genera la dirección de memoria de alimento (0x6dfed4)
+    cout << &alimento << "\n";
+
+    // Acceda a la dirección de memoria de alimento y genere su valor (Pizza)
+    cout << *ptr << "\n";
+
+    // Cambiar el valor del puntero
+    *ptr = "Hamburger";
+
+    // Genera el nuevo valor del puntero (Hamburger)
+    cout << *ptr << "\n";
+
+    // Generar el nuevo valor de la variable alimentaria (Hamburger)
+    cout << alimento << "\n";
+    return 0;
+}
