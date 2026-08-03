@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numero, *dir_numero;
+    numero=200;
+    dir_numero=&numero;
+    cout<<*dir_numero<<endl;//visualiza lo que encuentra en la dirección de memoria
+    cout<<dir_numero<<endl;//visualiza la dirección de memoria
+    return 0;
+}
