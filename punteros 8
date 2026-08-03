@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int  x = 27;
+    int  *ip;
+    ip = &x;
+    cout << "El valor de x es: ";
+    cout << x << endl;
+    cout << "El valor de ip es: ";
+    cout << ip<< endl;
+    cout << "El valor de *ip es : ";
+    cout << *ip << endl;
+    return 0;
+}
