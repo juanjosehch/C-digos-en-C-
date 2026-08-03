@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero = 10; // Creamos una variable entera
+    int *puntero;   // Declaramos un puntero a un entero
+
+    puntero = &numero; // Asignamos la dirección de memoria de numero al puntero
+
+    cout << "El valor de numero es: " << numero << endl;
+    cout << "La dirección de memoria de numero es: " << &numero << endl;
+    cout << "El valor del puntero (dirección de memoria): " << puntero << endl;
+    cout << "El valor al que apunta el puntero: " << *puntero << endl;
+
+    return 0;
+}
